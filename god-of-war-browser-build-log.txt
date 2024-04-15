@@ -1,0 +1,91 @@
+C:\god_of_war_browser-master>go version
+go version go1.22.2 windows/amd64
+
+C:\god_of_war_browser-master>go env
+set GO111MODULE=
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\Administrator\AppData\Local\go-build
+set GOENV=C:\Users\Administrator\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOEXPERIMENT=
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GOMODCACHE=C:\Users\Administrator\go\pkg\mod
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\Administrator\go
+set GOPRIVATE=
+set GOPROXY=https://proxy.golang.org,direct
+set GOROOT=C:\Program Files\Go
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLCHAIN=auto
+set GOTOOLDIR=C:\Program Files\Go\pkg\tool\windows_amd64
+set GOVCS=
+set GOVERSION=go1.22.2
+set GCCGO=gccgo
+set GOAMD64=v1
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=0
+set GOMOD=C:\god_of_war_browser-master\go.mod
+set GOWORK=
+set CGO_CFLAGS=-O2 -g
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-O2 -g
+set CGO_FFLAGS=-O2 -g
+set CGO_LDFLAGS=-O2 -g
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -fno-caret-diagnostics -Qunused-arguments -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\ADMINI~1\AppData\Local\Temp\go-build2419391462=/tmp/go-build -gno-record-gcc-switches
+
+C:\god_of_war_browser-master>go test -v ./..
+no Go files in C:\
+
+C:\god_of_war_browser-master>go build
+go: downloading github.com/mogaika/udf v0.0.0-20171019171931-167f0ab01c73
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading golang.org/x/text v0.3.7
+go: downloading github.com/mogaika/fbx v0.1.0
+go: downloading github.com/go-gl/mathgl v1.0.0
+go: downloading github.com/qmuntal/gltf v0.23.0
+go: downloading github.com/mogaika/bmfont v0.0.0-20171214121832-6d9c75ddf4e8
+go: downloading github.com/mogaika/go-collada v0.0.0-20130926211746-391129030388
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/gorilla/websocket v1.5.0
+go: downloading github.com/gorilla/handlers v1.5.1
+go: downloading github.com/gorilla/mux v1.8.0
+go: downloading github.com/Pallinder/go-randomdata v1.2.0
+go: downloading github.com/davecgh/go-spew v1.1.1
+go: downloading github.com/timtadh/lexmachine v0.2.3
+go: downloading github.com/mogaika/binrw v0.1.0
+go: downloading github.com/felixge/httpsnoop v1.0.3
+go: downloading golang.org/x/image v0.0.0-20220902085622-e7cb96979f69
+go: downloading github.com/timtadh/data-structures v0.6.2
+
+C:\god_of_war_browser-master>god_of_war_browser.exe
+2024/04/15 17:15:39 Setting encoding "Windows 1252"
+  -dir string
+        Path to unpacked wads and other stuff
+  -encoding string
+        Select text encodings (default "Windows 1252")
+  -gowversion int
+        0 - auto, 1 - 'gow1', 2 - 'gow2', 2018 - 'gow2018'
+  -i string
+        Address of server (default ":8000")
+  -iso string
+        Path to iso file
+  -listencodings
+        List text encodings
+  -parsecheck
+        Check every file for parse errors (for devs)
+  -ps string
+        Playstation version (ps2, ps3, psvita, pc) (default "ps2")
+  -psarc string
+        Path to ps3 psarc file
+  -toc string
+        Path to folder with toc file
