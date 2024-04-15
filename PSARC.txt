@@ -1,10 +1,11 @@
 .psarc - EDITING
 
+Tools :
 Total Commander - https://drive.google.com/file/d/1GL6kmSfKWsxVH8xQR4FmAcXUtj4_y3ul/view?usp=sharing
 psarc plugin - https://drive.google.com/file/d/19DNkwfjROjw0u8b2uVtH-jYWOirdRdXw/view?usp=sharing
 
-
-God of War 1&2 EUROPE
+Tested on :
+God of War 1&2 EUROPE - BCES00791
 
 Folder tree
 .psarc
@@ -21,7 +22,7 @@ File Format
 .vp2 - Voice pack 2 (idk) same as .vpk
 .vp3 - Voice pack 3 (idk) same as .vpk
 .vp4 - Voice pack 4 (idk) same as .vpk
-.wad_ps3 - (i didnt have much info)
+.wad_ps3 - 3d model-maps-game logic - you can use God of war browser
 .vag - just sfx in the game(ex: npc get hurt) maybe same like .vpk (i didnt test it yet)
 
 Full tree lists
